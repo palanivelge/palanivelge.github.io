@@ -1,25 +1,500 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
-    <title>Palanivel GE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palanivel GE | Algorithm Design Engineer & Researcher</title>
+
+```
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height:1.6;
+        color:#333;
+        background:#f5f7fb;
+    }
+
+    /* Navigation */
+    nav{
+        background:#0b1f3a;
+        padding:15px 40px;
+        position:sticky;
+        top:0;
+        z-index:1000;
+    }
+
+    nav ul{
+        list-style:none;
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        flex-wrap:wrap;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        font-weight:500;
+        transition:0.3s;
+    }
+
+    nav a:hover{
+        color:#64b5f6;
+    }
+
+    /* Hero Section */
+    .hero{
+        background:linear-gradient(135deg,#0b1f3a,#123d7a);
+        color:white;
+        padding:80px 20px;
+        text-align:center;
+    }
+
+    .profile-img{
+        width:180px;
+        height:180px;
+        border-radius:50%;
+        object-fit:cover;
+        border:5px solid white;
+        margin-bottom:20px;
+        background:#fff;
+    }
+
+    .hero h1{
+        font-size:3rem;
+        margin-bottom:10px;
+    }
+
+    .hero h2{
+        font-size:1.4rem;
+        font-weight:400;
+        margin-bottom:20px;
+        color:#dbe9ff;
+    }
+
+    .hero p{
+        max-width:800px;
+        margin:0 auto;
+        font-size:1.1rem;
+    }
+
+    /* Main Container */
+    .container{
+        max-width:1100px;
+        margin:40px auto;
+        padding:0 20px;
+    }
+
+    /* Section */
+    .section{
+        background:white;
+        margin-bottom:30px;
+        padding:35px;
+        border-radius:15px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    .section h2{
+        color:#0b1f3a;
+        margin-bottom:25px;
+        padding-bottom:10px;
+        border-bottom:3px solid #1976d2;
+        font-size:2rem;
+    }
+
+    /* Cards */
+    .card{
+        margin-bottom:25px;
+        padding:20px;
+        border-left:4px solid #1976d2;
+        background:#f8fbff;
+        border-radius:8px;
+    }
+
+    .card h3{
+        color:#123d7a;
+        margin-bottom:5px;
+    }
+
+    .card .meta{
+        color:#666;
+        font-size:0.95rem;
+        margin-bottom:10px;
+    }
+
+    /* Lists */
+    ul{
+        padding-left:20px;
+    }
+
+    li{
+        margin-bottom:8px;
+    }
+
+    /* Publication Links */
+    .pub-link{
+        display:inline-block;
+        margin-top:10px;
+        color:#1976d2;
+        text-decoration:none;
+        font-weight:600;
+    }
+
+    .pub-link:hover{
+        text-decoration:underline;
+    }
+
+    /* Teaching Grid */
+    .teaching-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+        gap:20px;
+    }
+
+    .ppt-card{
+        border:1px solid #dbe5f0;
+        padding:20px;
+        border-radius:10px;
+        transition:0.3s;
+    }
+
+    .ppt-card:hover{
+        transform:translateY(-5px);
+        box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .ppt-card a{
+        color:#1976d2;
+        text-decoration:none;
+        font-weight:600;
+    }
+
+    /* Skills */
+    .skills{
+        display:flex;
+        flex-wrap:wrap;
+        gap:10px;
+    }
+
+    .skill{
+        background:#e3f2fd;
+        color:#0b1f3a;
+        padding:8px 14px;
+        border-radius:20px;
+        font-size:0.9rem;
+        font-weight:500;
+    }
+
+    /* Contact */
+    .contact-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+    }
+
+    .contact-item{
+        text-align:center;
+        padding:20px;
+        background:#f8fbff;
+        border-radius:10px;
+    }
+
+    .contact-item h4{
+        color:#123d7a;
+        margin-bottom:10px;
+    }
+
+    /* Footer */
+    footer{
+        text-align:center;
+        padding:30px;
+        background:#0b1f3a;
+        color:white;
+        margin-top:40px;
+    }
+
+    /* Responsive */
+    @media(max-width:768px){
+        .hero h1{
+            font-size:2.2rem;
+        }
+
+        .hero h2{
+            font-size:1.1rem;
+        }
+
+        nav{
+            padding:15px 20px;
+        }
+
+        .section{
+            padding:25px;
+        }
+    }
+</style>
+```
+
 </head>
 
 <body>
 
-<h1>Palanivel GE</h1>
+```
+<!-- Navigation -->
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#professional">Professional</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#patents">Patents</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-<h3>Algorithm Design Engineer</h3>
+<!-- Hero -->
+<section class="hero">
+    <!-- Replace profile.jpg with your photo in images/profile.jpg -->
+    <img src="images/profile.jpg" alt="Palanivel GE" class="profile-img">
 
-<p>
-Welcome to my personal website.
-</p>
+    <h1>Palanivel GE</h1>
+    <h2>Algorithm Design Engineer | Satellite Communications | 6G & OTFS Researcher</h2>
 
-<p>
-I work in Satellite Communications,
-Signal Processing,
-6G,
-and OTFS waveform research.
-</p>
+    <p>
+        Researcher and industry professional specializing in satellite communication systems,
+        waveform design, synchronization algorithms, signal processing, OTFS, DVB-S2, and
+        next-generation 6G technologies. Currently pursuing PhD research while contributing
+        to advanced communication algorithm development in the industry.
+    </p>
+</section>
+
+<div class="container">
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <p>
+            I am an Algorithm Design Engineer with expertise in satellite communications,
+            digital signal processing, and wireless waveform technologies. My research focuses
+            on OTFS and emerging waveform candidates for high-mobility and next-generation
+            communication systems.
+        </p>
+
+        <br>
+
+        <div class="skills">
+            <span class="skill">OTFS</span>
+            <span class="skill">DVB-S2</span>
+            <span class="skill">CCSDS</span>
+            <span class="skill">Satellite Communications</span>
+            <span class="skill">6G</span>
+            <span class="skill">Signal Processing</span>
+            <span class="skill">Synchronization</span>
+            <span class="skill">MATLAB</span>
+            <span class="skill">Python</span>
+            <span class="skill">RF Systems</span>
+        </div>
+    </section>
+
+    <!-- Professional -->
+    <section id="professional" class="section">
+        <h2>Professional Experience</h2>
+
+        <div class="card">
+            <h3>Algorithm Design Engineer</h3>
+            <div class="meta">Satellite Communication Industry | Present</div>
+
+            <ul>
+                <li>Design and optimization of advanced communication algorithms for satellite systems.</li>
+                <li>Development of synchronization, timing recovery, and waveform processing techniques.</li>
+                <li>Performance analysis of DVB-S2/CCSDS communication chains under realistic channel conditions.</li>
+                <li>Simulation and validation using MATLAB and Python-based frameworks.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Former RF Software Engineer</h3>
+            <div class="meta">Qualcomm | 2020–2026</div>
+
+            <ul>
+                <li>Worked on LTE/NR RF software and modem-related signal processing workflows.</li>
+                <li>Contributed to RF feature validation, carrier configuration analysis, and performance debugging.</li>
+                <li>Collaborated with cross-functional teams across modem, RF, and system validation groups.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching" class="section">
+        <h2>Teaching & Lecture Materials</h2>
+
+        <p>
+            This section contains lecture presentations, tutorial slides, and educational
+            resources for students and researchers.
+        </p>
+
+        <br>
+
+        <div class="teaching-grid">
+
+            <div class="ppt-card">
+                <h3>OTFS Fundamentals</h3>
+                <p>Delay-Doppler domain intuition, modulation chain, and channel representation.</p>
+                <a href="lectures/OTFS_Fundamentals.pdf" target="_blank">Download PPT/PDF →</a>
+            </div>
+
+            <div class="ppt-card">
+                <h3>DVB-S2 Synchronization</h3>
+                <p>Frame synchronization, timing recovery, Costas loop, and practical receiver design.</p>
+                <a href="lectures/DVBS2_Synchronization.pdf" target="_blank">Download PPT/PDF →</a>
+            </div>
+
+            <div class="ppt-card">
+                <h3>6G Waveform Candidates</h3>
+                <p>OTFS, AFDM, OCDM, ISAC, RIS, holographic beamforming, and future wireless trends.</p>
+                <a href="lectures/6G_Waveforms.pdf" target="_blank">Download PPT/PDF →</a>
+            </div>
+
+        </div>
+
+        <br>
+
+        <p><strong>How to upload your PPTs:</strong></p>
+        <ol>
+            <li>Create a folder named <code>lectures</code> in the repository.</li>
+            <li>Upload your PDF or PPT files into that folder.</li>
+            <li>Keep the filenames the same as the links above, or update the link names accordingly.</li>
+        </ol>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+        <h2>Publications</h2>
+
+        <div class="card">
+            <h3>IEEE Publication Title 1</h3>
+            <div class="meta">IEEE Conference/Journal, 2026</div>
+
+            <p>
+                Brief description of the publication, key contribution, and research impact.
+            </p>
+
+            <a class="pub-link" href="#">View Publication →</a>
+        </div>
+
+        <div class="card">
+            <h3>IEEE Publication Title 2</h3>
+            <div class="meta">IEEE Conference/Journal, 2025</div>
+
+            <p>
+                Brief description of the publication, methodology, and experimental results.
+            </p>
+
+            <a class="pub-link" href="#">View Publication →</a>
+        </div>
+
+        <div class="card">
+            <h3>Working Papers</h3>
+            <ul>
+                <li>Pilot Signal Design for OTFS Systems</li>
+                <li>Hybrid Neural Receivers for Next-Generation Waveforms</li>
+                <li>Synchronization Algorithms for High-Mobility Satellite Links</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Patents -->
+    <section id="patents" class="section">
+        <h2>Patents</h2>
+
+        <div class="card">
+            <h3>Patent Title 1</h3>
+            <div class="meta">Filed / Published | Patent Application No.</div>
+
+            <p>
+                Short description of the invention, technical novelty, and application domain.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Patent Title 2</h3>
+            <div class="meta">Filed / Published | Patent Application No.</div>
+
+            <p>
+                Short description of the invention, technical novelty, and application domain.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Innovation Areas</h3>
+            <ul>
+                <li>Wireless synchronization algorithms</li>
+                <li>Satellite waveform processing</li>
+                <li>RF impairment compensation</li>
+                <li>AI-assisted communication receivers</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="section">
+        <h2>Research Interests</h2>
+
+        <ul>
+            <li>Orthogonal Time Frequency Space (OTFS)</li>
+            <li>Advanced satellite communication waveforms</li>
+            <li>Delay-Doppler signal processing</li>
+            <li>Integrated Sensing and Communication (ISAC)</li>
+            <li>AI/ML for communication receivers</li>
+            <li>6G physical layer technologies</li>
+            <li>Synchronization and channel estimation</li>
+            <li>SIGINT and emitter geolocation techniques</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+
+        <div class="contact-grid">
+
+            <div class="contact-item">
+                <h4>Email</h4>
+                <p>your.email@example.com</p>
+            </div>
+
+            <div class="contact-item">
+                <h4>LinkedIn</h4>
+                <p>linkedin.com/in/palanivelge</p>
+            </div>
+
+            <div class="contact-item">
+                <h4>GitHub</h4>
+                <p>github.com/palanivelge</p>
+            </div>
+
+            <div class="contact-item">
+                <h4>Google Scholar</h4>
+                <p>Add your scholar profile link</p>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Palanivel GE | Personal Academic & Professional Website</p>
+</footer>
+```
 
 </body>
 </html>
