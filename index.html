@@ -1,500 +1,1026 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palanivel GE | Algorithm Design Engineer & Researcher</title>
-
-```
-<style>
-    *{
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
-    }
-
-    body{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height:1.6;
-        color:#333;
-        background:#f5f7fb;
-    }
-
-    /* Navigation */
-    nav{
-        background:#0b1f3a;
-        padding:15px 40px;
-        position:sticky;
-        top:0;
-        z-index:1000;
-    }
-
-    nav ul{
-        list-style:none;
-        display:flex;
-        justify-content:center;
-        gap:30px;
-        flex-wrap:wrap;
-    }
-
-    nav a{
-        color:white;
-        text-decoration:none;
-        font-weight:500;
-        transition:0.3s;
-    }
-
-    nav a:hover{
-        color:#64b5f6;
-    }
-
-    /* Hero Section */
-    .hero{
-        background:linear-gradient(135deg,#0b1f3a,#123d7a);
-        color:white;
-        padding:80px 20px;
-        text-align:center;
-    }
-
-    .profile-img{
-        width:180px;
-        height:180px;
-        border-radius:50%;
-        object-fit:cover;
-        border:5px solid white;
-        margin-bottom:20px;
-        background:#fff;
-    }
-
-    .hero h1{
-        font-size:3rem;
-        margin-bottom:10px;
-    }
-
-    .hero h2{
-        font-size:1.4rem;
-        font-weight:400;
-        margin-bottom:20px;
-        color:#dbe9ff;
-    }
-
-    .hero p{
-        max-width:800px;
-        margin:0 auto;
-        font-size:1.1rem;
-    }
-
-    /* Main Container */
-    .container{
-        max-width:1100px;
-        margin:40px auto;
-        padding:0 20px;
-    }
-
-    /* Section */
-    .section{
-        background:white;
-        margin-bottom:30px;
-        padding:35px;
-        border-radius:15px;
-        box-shadow:0 5px 15px rgba(0,0,0,0.08);
-    }
-
-    .section h2{
-        color:#0b1f3a;
-        margin-bottom:25px;
-        padding-bottom:10px;
-        border-bottom:3px solid #1976d2;
-        font-size:2rem;
-    }
-
-    /* Cards */
-    .card{
-        margin-bottom:25px;
-        padding:20px;
-        border-left:4px solid #1976d2;
-        background:#f8fbff;
-        border-radius:8px;
-    }
-
-    .card h3{
-        color:#123d7a;
-        margin-bottom:5px;
-    }
-
-    .card .meta{
-        color:#666;
-        font-size:0.95rem;
-        margin-bottom:10px;
-    }
-
-    /* Lists */
-    ul{
-        padding-left:20px;
-    }
-
-    li{
-        margin-bottom:8px;
-    }
-
-    /* Publication Links */
-    .pub-link{
-        display:inline-block;
-        margin-top:10px;
-        color:#1976d2;
-        text-decoration:none;
-        font-weight:600;
-    }
-
-    .pub-link:hover{
-        text-decoration:underline;
-    }
-
-    /* Teaching Grid */
-    .teaching-grid{
-        display:grid;
-        grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-        gap:20px;
-    }
-
-    .ppt-card{
-        border:1px solid #dbe5f0;
-        padding:20px;
-        border-radius:10px;
-        transition:0.3s;
-    }
-
-    .ppt-card:hover{
-        transform:translateY(-5px);
-        box-shadow:0 8px 20px rgba(0,0,0,0.1);
-    }
-
-    .ppt-card a{
-        color:#1976d2;
-        text-decoration:none;
-        font-weight:600;
-    }
-
-    /* Skills */
-    .skills{
-        display:flex;
-        flex-wrap:wrap;
-        gap:10px;
-    }
-
-    .skill{
-        background:#e3f2fd;
-        color:#0b1f3a;
-        padding:8px 14px;
-        border-radius:20px;
-        font-size:0.9rem;
-        font-weight:500;
-    }
-
-    /* Contact */
-    .contact-grid{
-        display:grid;
-        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-        gap:20px;
-    }
-
-    .contact-item{
-        text-align:center;
-        padding:20px;
-        background:#f8fbff;
-        border-radius:10px;
-    }
-
-    .contact-item h4{
-        color:#123d7a;
-        margin-bottom:10px;
-    }
-
-    /* Footer */
-    footer{
-        text-align:center;
-        padding:30px;
-        background:#0b1f3a;
-        color:white;
-        margin-top:40px;
-    }
-
-    /* Responsive */
-    @media(max-width:768px){
-        .hero h1{
-            font-size:2.2rem;
+    <title>Mr. Palanivel G E | Academic & Professional Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        crimson: {
+                            DEFAULT: '#A51C30',
+                            dark: '#7A1322',
+                            light: '#C8233B',
+                            soft: '#FDF2F4'
+                        },
+                        navy: {
+                            DEFAULT: '#002147',
+                            dark: '#00132B',
+                            light: '#1A365D',
+                            soft: '#EEF4FF'
+                        },
+                        gold: {
+                            DEFAULT: '#D4AF37',
+                            dark: '#AA820A',
+                            light: '#F3E5AB',
+                            soft: '#FCF8E3'
+                        },
+                        cream: '#FAF9F6',
+                        paper: '#F4F1EA'
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+                        garamond: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'ivy': '0 10px 30px -10px rgba(0, 33, 71, 0.08), 0 4px 6px -2px rgba(165, 28, 48, 0.05)',
+                        'ivy-hover': '0 20px 35px -10px rgba(0, 33, 71, 0.15), 0 10px 15px -5px rgba(212, 175, 55, 0.2)',
+                        'gold-glow': '0 0 25px rgba(212, 175, 55, 0.35)',
+                    }
+                }
+            }
         }
+    </script>
 
-        .hero h2{
-            font-size:1.1rem;
+    <style>
+        .glass-nav {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
         }
-
-        nav{
-            padding:15px 20px;
+        .crest-border {
+            background: linear-gradient(135deg, #D4AF37 0%, #A51C30 50%, #002147 100%);
         }
-
-        .section{
-            padding:25px;
+        .text-gradient-gold {
+            background: linear-gradient(135deg, #D4AF37 0%, #B8860B 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
-    }
-</style>
-```
-
+        .academic-hero-bg {
+            background-color: #FAF9F6;
+            background-image: radial-gradient(#002147 0.5px, transparent 0.5px), radial-gradient(#A51C30 0.5px, #FAF9F6 0.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            background-opacity: 0.03;
+        }
+        .dark .academic-hero-bg {
+            background-color: #0F172A;
+            background-image: radial-gradient(#D4AF37 0.5px, transparent 0.5px), radial-gradient(#A51C30 0.5px, #0F172A 0.5px);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #D4AF37;
+            border-radius: 3px;
+        }
+    </style>
 </head>
 
-<body>
+<body class="bg-cream text-slate-800 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300 font-sans custom-scrollbar min-h-screen flex flex-col">
 
-```
-<!-- Navigation -->
-<nav>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#professional">Professional</a></li>
-        <li><a href="#teaching">Teaching</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#patents">Patents</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 glass-nav bg-cream/90 dark:bg-slate-900/90 border-b border-gold/30 dark:border-slate-800 transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand / Crest Logo -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-11 h-11 rounded-full crest-border p-0.5 shadow-md group-hover:scale-105 transition-transform">
+                        <div class="w-full h-full bg-navy dark:bg-slate-950 rounded-full flex items-center justify-center text-gold font-serif font-bold text-lg border border-gold/40">
+                            AV
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-serif font-bold text-xl tracking-tight text-navy dark:text-slate-100 group-hover:text-crimson transition-colors">
+                            A. V. Vance, Ph.D.
+                        </span>
+                        <span class="text-xs tracking-widest uppercase font-semibold text-crimson dark:text-gold">
+                            External PhD Candidate IIT Hyderabad
+                        </span>
+                    </div>
+                </a>
 
-<!-- Hero -->
-<section class="hero">
-    <!-- Replace profile.jpg with your photo in images/profile.jpg -->
-    <img src="images/profile.jpg" alt="Palanivel GE" class="profile-img">
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center space-x-1 xl:space-x-2 font-medium text-sm">
+                    <a href="#home" class="px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-crimson dark:hover:text-gold hover:bg-gold/10 transition">Home</a>
+                    <a href="#education" class="px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-crimson dark:hover:text-gold hover:bg-gold/10 transition">Education</a>
+                    <a href="#research" class="px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-crimson dark:hover:text-gold hover:bg-gold/10 transition">Publications</a>
+                    <a href="#experience" class="px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-crimson dark:hover:text-gold hover:bg-gold/10 transition">Experience</a>
+                    <a href="#projects" class="px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-crimson dark:hover:text-gold hover:bg-gold/10 transition">Projects</a>
+                    <a href="#honors" class="px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-crimson dark:hover:text-gold hover:bg-gold/10 transition">Honors</a>
+                    <a href="#contact" class="px-3 py-2 rounded-lg text-slate-700 dark:text-slate-200 hover:text-crimson dark:hover:text-gold hover:bg-gold/10 transition">Contact</a>
+                </nav>
 
-    <h1>Palanivel GE</h1>
-    <h2>Algorithm Design Engineer | Satellite Communications | 6G & OTFS Researcher</h2>
+                <!-- Actions: Dark Mode & Download CV -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <button id="themeToggleBtn" onclick="toggleDarkMode()" aria-label="Toggle theme" class="p-2.5 rounded-full text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 transition focus:outline-none">
+                        <i id="themeIcon" class="fa-solid fa-moon text-lg"></i>
+                    </button>
 
-    <p>
-        Researcher and industry professional specializing in satellite communication systems,
-        waveform design, synchronization algorithms, signal processing, OTFS, DVB-S2, and
-        next-generation 6G technologies. Currently pursuing PhD research while contributing
-        to advanced communication algorithm development in the industry.
-    </p>
-</section>
+                    <a href="#contact" onclick="showToast('Initiating CV Download (PDF)...')" class="inline-flex items-center gap-2 bg-crimson hover:bg-crimson-dark text-white px-4 py-2 rounded-lg text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-200 border border-gold/30">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
 
-<div class="container">
+                <!-- Mobile Hamburger Button -->
+                <div class="flex items-center gap-2 lg:hidden">
+                    <button id="themeToggleBtnMobile" onclick="toggleDarkMode()" aria-label="Toggle theme" class="p-2 text-slate-600 dark:text-slate-300">
+                        <i id="themeIconMobile" class="fa-solid fa-moon text-lg"></i>
+                    </button>
+                    <button onclick="toggleMobileMenu()" class="p-2 rounded-lg text-navy dark:text-slate-100 hover:bg-slate-200 dark:hover:bg-slate-800 focus:outline-none">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
 
-    <!-- About -->
-    <section id="about" class="section">
-        <h2>About Me</h2>
+        <!-- Mobile Drawer Navigation -->
+        <div id="mobileMenu" class="hidden lg:hidden bg-cream dark:bg-slate-900 border-b border-gold/30 px-4 pt-2 pb-6 space-y-2">
+            <a href="#home" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-gold/10">Home</a>
+            <a href="#education" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-gold/10">Education</a>
+            <a href="#research" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-gold/10">Publications & Research</a>
+            <a href="#experience" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-gold/10">Experience</a>
+            <a href="#projects" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-gold/10">Projects</a>
+            <a href="#honors" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-gold/10">Honors & Grants</a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 dark:text-slate-200 hover:bg-gold/10">Contact</a>
+            <div class="pt-2">
+                <a href="#contact" onclick="showToast('Initiating CV Download...'); toggleMobileMenu();" class="w-full text-center block bg-crimson text-white px-4 py-2.5 rounded-lg text-sm font-semibold shadow-md">
+                    <i class="fa-solid fa-file-pdf mr-2"></i> Download Curriculum Vitae
+                </a>
+            </div>
+        </div>
+    </header>
 
-        <p>
-            I am an Algorithm Design Engineer with expertise in satellite communications,
-            digital signal processing, and wireless waveform technologies. My research focuses
-            on OTFS and emerging waveform candidates for high-mobility and next-generation
-            communication systems.
-        </p>
+    <!-- HERO SECTION -->
+    <section id="home" class="relative py-16 md:py-24 academic-hero-bg overflow-hidden border-b border-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left: Profile Image with Gold Ring Frame -->
+                <div class="lg:col-span-4 flex flex-col items-center">
+                    <div class="relative group">
+                        <!-- Decorative Ivy Gold Accent Ring -->
+                        <div class="absolute -inset-1.5 rounded-full bg-gradient-to-r from-gold via-crimson to-navy opacity-80 blur group-hover:opacity-100 transition duration-300"></div>
+                        <div class="relative w-56 h-56 sm:w-64 sm:h-64 rounded-full p-1.5 bg-cream dark:bg-slate-900 border-2 border-gold shadow-2xl">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600" 
+                                 alt="Dr. Alexander V. Vance Profile" 
+                                 class="w-full h-full object-cover rounded-full filter saturate-[0.95]"
+                                 onerror="this.src='https://placehold.co/400x400/002147/D4AF37?text=A.V.Vance+PhD'">
+                        </div>
+                        
+                        <!-- Harvard / Ivy League Badge -->
+                        <div class="absolute bottom-2 right-2 bg-navy text-gold p-2.5 rounded-full border-2 border-gold shadow-lg flex items-center justify-center text-lg" title="Harvard Fellow">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                    </div>
 
-        <br>
+                    <!-- Academic Titles Pill -->
+                    <div class="mt-6 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold/15 border border-gold/40 text-navy dark:text-gold text-xs font-semibold uppercase tracking-wider">
+                        <i class="fa-solid fa-certificate text-crimson dark:text-gold"></i>
+                        <span>Rhodes Scholar Alum • IEEE Senior Member</span>
+                    </div>
+                </div>
 
-        <div class="skills">
-            <span class="skill">OTFS</span>
-            <span class="skill">DVB-S2</span>
-            <span class="skill">CCSDS</span>
-            <span class="skill">Satellite Communications</span>
-            <span class="skill">6G</span>
-            <span class="skill">Signal Processing</span>
-            <span class="skill">Synchronization</span>
-            <span class="skill">MATLAB</span>
-            <span class="skill">Python</span>
-            <span class="skill">RF Systems</span>
+                <!-- Right: Bio and Academic Identity -->
+                <div class="lg:col-span-8 text-center lg:text-left space-y-6">
+                    <div>
+                        <span class="text-crimson font-serif font-bold text-lg md:text-xl tracking-wide uppercase">
+                            Academic & Technical Portfolio
+                        </span>
+                        <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-extrabold text-navy dark:text-slate-100 tracking-tight mt-1 leading-tight">
+                            Dr. Alexander V. Vance
+                        </h1>
+                        <p class="text-xl sm:text-2xl font-garamond font-semibold italic text-slate-600 dark:text-slate-300 mt-2">
+                            Postdoctoral Fellow in Artificial Intelligence & Quantum Computing
+                        </p>
+                        <p class="text-sm font-medium text-slate-500 dark:text-slate-400">
+                            John A. Paulson School of Engineering and Applied Sciences | <span class="text-crimson dark:text-gold font-semibold">Harvard University</span>
+                        </p>
+                    </div>
+
+                    <p class="text-slate-700 dark:text-slate-300 text-base md:text-lg leading-relaxed max-w-3xl">
+                        Specializing at the intersection of <strong class="text-navy dark:text-gold">Generative AI alignment</strong>, multi-agent reinforcement learning, and quantum system optimization. Dedicated to pioneering trustworthy neural architectures and advancing high-impact computational models for complex decision science.
+                    </p>
+
+                    <!-- Academic Quick Links -->
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-2">
+                        <a href="https://scholar.google.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-white dark:bg-slate-800 text-navy dark:text-slate-100 px-3.5 py-2 rounded-lg text-sm font-semibold border border-slate-300 dark:border-slate-700 hover:border-crimson dark:hover:border-gold hover:shadow-md transition">
+                            <i class="fa-solid fa-graduation-cap text-crimson"></i> Google Scholar
+                        </a>
+                        <a href="https://orcid.org" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-white dark:bg-slate-800 text-navy dark:text-slate-100 px-3.5 py-2 rounded-lg text-sm font-semibold border border-slate-300 dark:border-slate-700 hover:border-crimson dark:hover:border-gold hover:shadow-md transition">
+                            <i class="fa-brands fa-orcid text-emerald-600"></i> ORCID ID
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-white dark:bg-slate-800 text-navy dark:text-slate-100 px-3.5 py-2 rounded-lg text-sm font-semibold border border-slate-300 dark:border-slate-700 hover:border-crimson dark:hover:border-gold hover:shadow-md transition">
+                            <i class="fa-brands fa-github text-slate-800 dark:text-white"></i> GitHub
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-white dark:bg-slate-800 text-navy dark:text-slate-100 px-3.5 py-2 rounded-lg text-sm font-semibold border border-slate-300 dark:border-slate-700 hover:border-crimson dark:hover:border-gold hover:shadow-md transition">
+                            <i class="fa-brands fa-linkedin text-blue-700"></i> LinkedIn
+                        </a>
+                        <a href="mailto:a.vance@harvard.edu" class="inline-flex items-center gap-2 bg-white dark:bg-slate-800 text-navy dark:text-slate-100 px-3.5 py-2 rounded-lg text-sm font-semibold border border-slate-300 dark:border-slate-700 hover:border-crimson dark:hover:border-gold hover:shadow-md transition">
+                            <i class="fa-solid fa-envelope text-gold-dark"></i> Email
+                        </a>
+                    </div>
+
+                    <!-- Key Accomplishments Stats Counter Grid -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-slate-200 dark:border-slate-800">
+                        <div class="bg-white dark:bg-slate-800/80 p-4 rounded-xl border border-gold/30 shadow-ivy hover:border-gold transition">
+                            <div class="font-serif text-2xl sm:text-3xl font-extrabold text-crimson dark:text-gold">18+</div>
+                            <div class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-1">Peer-Reviewed Papers</div>
+                        </div>
+                        <div class="bg-white dark:bg-slate-800/80 p-4 rounded-xl border border-gold/30 shadow-ivy hover:border-gold transition">
+                            <div class="font-serif text-2xl sm:text-3xl font-extrabold text-navy dark:text-slate-100">1,420+</div>
+                            <div class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-1">Citations (h-index: 14)</div>
+                        </div>
+                        <div class="bg-white dark:bg-slate-800/80 p-4 rounded-xl border border-gold/30 shadow-ivy hover:border-gold transition">
+                            <div class="font-serif text-2xl sm:text-3xl font-extrabold text-crimson dark:text-gold">$450K+</div>
+                            <div class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-1">Grants & Fellowships</div>
+                        </div>
+                        <div class="bg-white dark:bg-slate-800/80 p-4 rounded-xl border border-gold/30 shadow-ivy hover:border-gold transition">
+                            <div class="font-serif text-2xl sm:text-3xl font-extrabold text-navy dark:text-slate-100">3.98</div>
+                            <div class="text-xs font-semibold text-slate-600 dark:text-slate-400 uppercase tracking-wider mt-1">GPA / Summa Cum Laude</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Professional -->
-    <section id="professional" class="section">
-        <h2>Professional Experience</h2>
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="py-20 bg-paper dark:bg-slate-900/50 border-b border-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold text-crimson dark:text-gold uppercase tracking-widest bg-crimson/10 dark:bg-gold/10 px-3 py-1 rounded-full border border-crimson/20">
+                    Academic Background
+                </span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy dark:text-slate-100 mt-3">
+                    Degrees & Ivy League Credentials
+                </h2>
+                <div class="w-16 h-1 bg-gold mx-auto mt-4 rounded-full"></div>
+            </div>
 
-        <div class="card">
-            <h3>Algorithm Design Engineer</h3>
-            <div class="meta">Satellite Communication Industry | Present</div>
+            <!-- Education Timeline -->
+            <div class="space-y-8 max-w-4xl mx-auto">
+                
+                <!-- Degree 1: Harvard PhD -->
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 sm:p-8 shadow-ivy border-l-4 border-crimson relative overflow-hidden group hover:shadow-ivy-hover transition duration-300">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100 dark:border-slate-700">
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 rounded-xl bg-crimson/10 text-crimson dark:bg-crimson/20 dark:text-gold flex items-center justify-center font-serif font-bold text-2xl border border-crimson/30">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-serif text-xl sm:text-2xl font-bold text-navy dark:text-slate-100">
+                                    Ph.D. in Computer Science & Applied AI
+                                </h3>
+                                <p class="text-crimson dark:text-gold font-semibold text-base">
+                                    Harvard University <span class="text-slate-400 font-normal">| Cambridge, MA</span>
+                                </p>
+                            </div>
+                        </div>
+                        <span class="inline-block px-3 py-1 rounded-full bg-navy/10 dark:bg-slate-700 text-navy dark:text-slate-200 text-xs font-bold self-start md:self-center">
+                            2020 – 2024
+                        </span>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <p class="text-slate-700 dark:text-slate-300 text-sm md:text-base">
+                            <strong class="text-navy dark:text-slate-100">Dissertation:</strong> <em>"Scalable Alignment and Robust Safety Guarantees in Multi-Agent Neural Networks"</em>
+                        </p>
+                        <p class="text-slate-600 dark:text-slate-400 text-xs sm:text-sm">
+                            <strong class="text-navy dark:text-slate-200">Advisor:</strong> Prof. Eleanor Vance • <strong class="text-navy dark:text-slate-200">Honors:</strong> Harvard Outstanding Dissertation Award, NSF Graduate Fellow.
+                        </p>
+                        <div class="flex flex-wrap gap-2 pt-2">
+                            <span class="px-2.5 py-1 rounded bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-medium">Deep Learning</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-medium">Algorithmic Game Theory</span>
+                            <span class="px-2.5 py-1 rounded bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-medium">Reinforcement Learning</span>
+                        </div>
+                    </div>
+                </div>
 
-            <ul>
-                <li>Design and optimization of advanced communication algorithms for satellite systems.</li>
-                <li>Development of synchronization, timing recovery, and waveform processing techniques.</li>
-                <li>Performance analysis of DVB-S2/CCSDS communication chains under realistic channel conditions.</li>
-                <li>Simulation and validation using MATLAB and Python-based frameworks.</li>
-            </ul>
-        </div>
+                <!-- Degree 2: Oxford Master -->
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 sm:p-8 shadow-ivy border-l-4 border-navy dark:border-gold relative overflow-hidden group hover:shadow-ivy-hover transition duration-300">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100 dark:border-slate-700">
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 rounded-xl bg-navy/10 text-navy dark:bg-gold/10 dark:text-gold flex items-center justify-center font-serif font-bold text-2xl border border-navy/20 dark:border-gold/30">
+                                <i class="fa-solid fa-book-bookmark"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-serif text-xl sm:text-2xl font-bold text-navy dark:text-slate-100">
+                                    M.Sc. in Advanced Computer Science
+                                </h3>
+                                <p class="text-navy dark:text-gold font-semibold text-base">
+                                    University of Oxford <span class="text-slate-400 font-normal">| Oxford, United Kingdom</span>
+                                </p>
+                            </div>
+                        </div>
+                        <span class="inline-block px-3 py-1 rounded-full bg-navy/10 dark:bg-slate-700 text-navy dark:text-slate-200 text-xs font-bold self-start md:self-center">
+                            2018 – 2020
+                        </span>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <p class="text-slate-700 dark:text-slate-300 text-sm md:text-base">
+                            <strong class="text-navy dark:text-slate-100">Thesis:</strong> <em>"Quantum Circuit Optimization via Reinforcement Learning Heuristics"</em>
+                        </p>
+                        <p class="text-slate-600 dark:text-slate-400 text-xs sm:text-sm">
+                            <strong class="text-navy dark:text-slate-200">Grade:</strong> Distinction (Top 1% of Cohort) • <strong class="text-navy dark:text-slate-200">Scholarship:</strong> Rhodes Scholar.
+                        </p>
+                    </div>
+                </div>
 
-        <div class="card">
-            <h3>Former RF Software Engineer</h3>
-            <div class="meta">Qualcomm | 2020–2026</div>
+                <!-- Degree 3: MIT Bachelor -->
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 sm:p-8 shadow-ivy border-l-4 border-gold relative overflow-hidden group hover:shadow-ivy-hover transition duration-300">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100 dark:border-slate-700">
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 rounded-xl bg-gold/20 text-gold-dark dark:bg-gold/20 dark:text-gold flex items-center justify-center font-serif font-bold text-2xl border border-gold/40">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-serif text-xl sm:text-2xl font-bold text-navy dark:text-slate-100">
+                                    B.S. in Electrical Engineering & Computer Science
+                                </h3>
+                                <p class="text-crimson dark:text-gold font-semibold text-base">
+                                    Massachusetts Institute of Technology (MIT) <span class="text-slate-400 font-normal">| Cambridge, MA</span>
+                                </p>
+                            </div>
+                        </div>
+                        <span class="inline-block px-3 py-1 rounded-full bg-navy/10 dark:bg-slate-700 text-navy dark:text-slate-200 text-xs font-bold self-start md:self-center">
+                            2014 – 2018
+                        </span>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                        <p class="text-slate-700 dark:text-slate-300 text-sm md:text-base">
+                            <strong class="text-navy dark:text-slate-100">GPA:</strong> 5.0 / 5.0 (Summa Cum Laude) • Tau Beta Pi Engineering Honor Society
+                        </p>
+                    </div>
+                </div>
 
-            <ul>
-                <li>Worked on LTE/NR RF software and modem-related signal processing workflows.</li>
-                <li>Contributed to RF feature validation, carrier configuration analysis, and performance debugging.</li>
-                <li>Collaborated with cross-functional teams across modem, RF, and system validation groups.</li>
-            </ul>
+            </div>
         </div>
     </section>
 
-    <!-- Teaching -->
-    <section id="teaching" class="section">
-        <h2>Teaching & Lecture Materials</h2>
-
-        <p>
-            This section contains lecture presentations, tutorial slides, and educational
-            resources for students and researchers.
-        </p>
-
-        <br>
-
-        <div class="teaching-grid">
-
-            <div class="ppt-card">
-                <h3>OTFS Fundamentals</h3>
-                <p>Delay-Doppler domain intuition, modulation chain, and channel representation.</p>
-                <a href="lectures/OTFS_Fundamentals.pdf" target="_blank">Download PPT/PDF →</a>
+    <!-- PUBLICATIONS & RESEARCH SECTION -->
+    <section id="research" class="py-20 bg-cream dark:bg-slate-900 border-b border-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-navy dark:text-gold uppercase tracking-widest bg-navy/10 dark:bg-gold/10 px-3 py-1 rounded-full border border-navy/20">
+                    Scholarly Works
+                </span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy dark:text-slate-100 mt-3">
+                    Publications & Working Papers
+                </h2>
+                <div class="w-16 h-1 bg-gold mx-auto mt-4 rounded-full"></div>
             </div>
 
-            <div class="ppt-card">
-                <h3>DVB-S2 Synchronization</h3>
-                <p>Frame synchronization, timing recovery, Costas loop, and practical receiver design.</p>
-                <a href="lectures/DVBS2_Synchronization.pdf" target="_blank">Download PPT/PDF →</a>
+            <!-- Search and Filter Bar -->
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4 mb-10 bg-white dark:bg-slate-800 p-4 rounded-2xl shadow-md border border-gold/30">
+                <!-- Search Input -->
+                <div class="relative w-full md:w-80">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                    <input type="text" id="pubSearchInput" oninput="filterPublications()" placeholder="Search paper title, author, keyword..." class="w-full pl-10 pr-4 py-2 bg-slate-50 dark:bg-slate-900 rounded-lg text-sm border border-slate-200 dark:border-slate-700 focus:outline-none focus:border-gold dark:text-slate-100">
+                </div>
+
+                <!-- Filter Category Buttons -->
+                <div class="flex flex-wrap items-center gap-2 w-full md:w-auto justify-start md:justify-end">
+                    <button onclick="setPubFilter('all')" class="pub-filter-btn active-filter px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-crimson text-white border border-crimson">All</button>
+                    <button onclick="setPubFilter('aiml')" class="pub-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-gold/20 border border-transparent">AI & ML</button>
+                    <button onclick="setPubFilter('systems')" class="pub-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-gold/20 border border-transparent">Systems & Quantum</button>
+                    <button onclick="setPubFilter('journal')" class="pub-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-gold/20 border border-transparent">Journals</button>
+                    <button onclick="setPubFilter('conference')" class="pub-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-gold/20 border border-transparent">Conferences</button>
+                </div>
             </div>
 
-            <div class="ppt-card">
-                <h3>6G Waveform Candidates</h3>
-                <p>OTFS, AFDM, OCDM, ISAC, RIS, holographic beamforming, and future wireless trends.</p>
-                <a href="lectures/6G_Waveforms.pdf" target="_blank">Download PPT/PDF →</a>
+            <!-- Publications Container -->
+            <div id="publicationsGrid" class="space-y-6">
+                
+                <!-- Paper Item 1 -->
+                <div class="pub-card bg-white dark:bg-slate-800/90 rounded-2xl p-6 shadow-ivy border border-slate-200 dark:border-slate-700/80 hover:border-gold transition duration-300" data-category="aiml conference" data-title="provable safety guarantees in multi-agent reinforcement learning" data-authors="vance zhang harvard mit neurips">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                        <div class="flex items-center gap-2">
+                            <span class="px-2.5 py-0.5 rounded-full bg-crimson/10 text-crimson dark:bg-crimson/20 dark:text-gold text-xs font-bold border border-crimson/20">NeurIPS 2024 (Oral Presentation)</span>
+                            <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-900/40 text-emerald-800 dark:text-emerald-300 text-xs font-semibold">Citations: 142</span>
+                        </div>
+                        <span class="text-xs font-semibold text-slate-500">December 2024</span>
+                    </div>
+
+                    <h3 class="font-serif text-xl font-bold text-navy dark:text-slate-100 hover:text-crimson transition">
+                        Provable Safety Guarantees in Multi-Agent Neural Reinforcement Alignment
+                    </h3>
+
+                    <p class="text-sm text-slate-600 dark:text-slate-300 mt-2 font-medium">
+                        <strong class="text-crimson dark:text-gold font-bold">Alexander V. Vance</strong>, E. Zhang, H. C. Thorne, M. R. Wellesley
+                    </p>
+
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mt-2 line-clamp-2">
+                        Abstract: We present a novel theoretical framework providing strict upper-bounds on policy drift and convergence failure mode in competitive multi-agent neural dynamics using Lyapunov-constrained objective functions.
+                    </p>
+
+                    <div class="flex items-center gap-3 mt-4 pt-3 border-t border-slate-100 dark:border-slate-700 text-xs">
+                        <a href="#" onclick="showToast('Opening PDF paper document...'); return false;" class="text-crimson dark:text-gold font-semibold hover:underline flex items-center gap-1">
+                            <i class="fa-solid fa-file-pdf"></i> Paper PDF
+                        </a>
+                        <a href="#" onclick="showToast('Redirecting to DOI publisher link...'); return false;" class="text-navy dark:text-slate-300 font-semibold hover:underline flex items-center gap-1">
+                            <i class="fa-solid fa-link"></i> DOI Link
+                        </a>
+                        <button onclick="openBibtexModal('pub1')" class="text-slate-600 dark:text-slate-400 hover:text-gold font-semibold flex items-center gap-1 ml-auto">
+                            <i class="fa-solid fa-quote-left"></i> BibTeX
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Paper Item 2 -->
+                <div class="pub-card bg-white dark:bg-slate-800/90 rounded-2xl p-6 shadow-ivy border border-slate-200 dark:border-slate-700/80 hover:border-gold transition duration-300" data-category="systems journal" data-title="quantum circuit compilation via deep graph reinforcement learning" data-authors="vance oxford harvard nature communications">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                        <div class="flex items-center gap-2">
+                            <span class="px-2.5 py-0.5 rounded-full bg-navy/10 text-navy dark:bg-gold/20 dark:text-gold text-xs font-bold border border-navy/20">Nature Communications 2023</span>
+                            <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-900/40 text-emerald-800 dark:text-emerald-300 text-xs font-semibold">Citations: 389</span>
+                        </div>
+                        <span class="text-xs font-semibold text-slate-500">August 2023</span>
+                    </div>
+
+                    <h3 class="font-serif text-xl font-bold text-navy dark:text-slate-100 hover:text-crimson transition">
+                        Scalable Quantum Circuit Compilation via Deep Graph Reinforcement Heuristics
+                    </h3>
+
+                    <p class="text-sm text-slate-600 dark:text-slate-300 mt-2 font-medium">
+                        <strong class="text-crimson dark:text-gold font-bold">Alexander V. Vance</strong>, Lord Alistair Finch, S. K. Ramanujan
+                    </p>
+
+                    <p class="text-xs text-slate-500 dark:text-slate-400 mt-2 line-clamp-2">
+                        Abstract: Utilizing graph neural architectures to reduce gate depth count by 34% across 100+ qubit NISQ processors, showing unprecedented compilation speeds over classical compilers.
+                    </p>
+
+                    <div class="flex items-center gap-3 mt-4 pt-3 border-t border-slate-100 dark:border-slate-700 text-xs">
+                        <a href="#" onclick="showToast('Opening PDF paper document...'); return false;" class="text-crimson dark:text-gold font-semibold hover:underline flex items-center gap-1">
+                            <i class="fa-solid fa-file-pdf"></i> Paper PDF
+                        </a>
+                        <a href="#" onclick="showToast('Redirecting to DOI publisher link...'); return false;" class="text-navy dark:text-slate-300 font-semibold hover:underline flex items-center gap-1">
+                            <i class="fa-solid fa-link"></i> DOI Link
+                        </a>
+                        <button onclick="openBibtexModal('pub2')" class="text-slate-600 dark:text-slate-400 hover:text-gold font-semibold flex items-center gap-1 ml-auto">
+                            <i class="fa-solid fa-quote-left"></i> BibTeX
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Paper Item 3 -->
+                <div class="pub-card bg-white dark:bg-slate-800/90 rounded-2xl p-6 shadow-ivy border border-slate-200 dark:border-slate-700/80 hover:border-gold transition duration-300" data-category="aiml journal" data-title="trustworthy feedback loops in large language model reasoning" data-authors="vance mit harvard ieee pami">
+                    <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                        <div class="flex items-center gap-2">
+                            <span class="px-2.5 py-0.5 rounded-full bg-gold/20 text-gold-dark dark:bg-gold/20 dark:text-gold text-xs font-bold border border-gold/30">IEEE TPAMI 2023</span>
+                            <span class="px-2.5 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-900/40 text-emerald-800 dark:text-emerald-300 text-xs font-semibold">Citations: 275</span>
+                        </div>
+                        <span class="text-xs font-semibold text-slate-500">March 2023</span>
+                    </div>
+
+                    <h3 class="font-serif text-xl font-bold text-navy dark:text-slate-100 hover:text-crimson transition">
+                        Trustworthy Human-in-the-Loop Feedback Dynamics for Foundation Reasoning Models
+                    </h3>
+
+                    <p class="text-sm text-slate-600 dark:text-slate-300 mt-2 font-medium">
+                        C. L. Montgomery, <strong class="text-crimson dark:text-gold font-bold">Alexander V. Vance</strong>, D. R. Sterling
+                    </p>
+
+                    <div class="flex items-center gap-3 mt-4 pt-3 border-t border-slate-100 dark:border-slate-700 text-xs">
+                        <a href="#" onclick="showToast('Opening PDF paper document...'); return false;" class="text-crimson dark:text-gold font-semibold hover:underline flex items-center gap-1">
+                            <i class="fa-solid fa-file-pdf"></i> Paper PDF
+                        </a>
+                        <button onclick="openBibtexModal('pub3')" class="text-slate-600 dark:text-slate-400 hover:text-gold font-semibold flex items-center gap-1 ml-auto">
+                            <i class="fa-solid fa-quote-left"></i> BibTeX
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE SECTION -->
+    <section id="experience" class="py-20 bg-paper dark:bg-slate-900/50 border-b border-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-crimson dark:text-gold uppercase tracking-widest bg-crimson/10 dark:bg-gold/10 px-3 py-1 rounded-full border border-crimson/20">
+                    Professional History
+                </span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy dark:text-slate-100 mt-3">
+                    Research & Industry Experience
+                </h2>
+                <div class="w-16 h-1 bg-gold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- Dual Tab Selector -->
+            <div class="flex justify-center mb-10">
+                <div class="inline-flex p-1.5 rounded-xl bg-slate-200 dark:bg-slate-800 border border-slate-300 dark:border-slate-700">
+                    <button id="tabIndustryBtn" onclick="switchExperienceTab('industry')" class="px-6 py-2.5 rounded-lg text-xs sm:text-sm font-bold transition shadow-sm bg-navy text-white">
+                        <i class="fa-solid fa-building-user mr-1.5"></i> Industry & Fellowships
+                    </button>
+                    <button id="tabAcademicBtn" onclick="switchExperienceTab('academic')" class="px-6 py-2.5 rounded-lg text-xs sm:text-sm font-bold transition text-slate-700 dark:text-slate-300 hover:text-navy">
+                        <i class="fa-solid fa-chalkboard-user mr-1.5"></i> Teaching & Academic Roles
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tab Panel 1: Industry & Fellowships -->
+            <div id="industryPanel" class="space-y-6 max-w-4xl mx-auto">
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 sm:p-8 shadow-ivy border border-slate-200 dark:border-slate-700">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-slate-100 dark:border-slate-700">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-navy dark:text-slate-100">Senior AI Research Scientist (Consultant)</h3>
+                            <p class="text-crimson dark:text-gold font-semibold text-sm">Google DeepMind • London / Cambridge</p>
+                        </div>
+                        <span class="text-xs font-bold px-3 py-1 bg-gold/15 text-navy dark:text-gold rounded-full self-start">2022 – Present</span>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-700 dark:text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Architected scalable RLHF alignment algorithms for next-generation multi-modal foundation models.</li>
+                        <li>Co-authored 3 patent filings on constrained policy optimization and reduced hallucination rates by 22%.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 sm:p-8 shadow-ivy border border-slate-200 dark:border-slate-700">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-slate-100 dark:border-slate-700">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-navy dark:text-slate-100">Quantum Hardware Systems Intern</h3>
+                            <p class="text-navy dark:text-gold font-semibold text-sm">IBM Quantum Research • Yorktown Heights, NY</p>
+                        </div>
+                        <span class="text-xs font-bold px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 rounded-full self-start">Summer 2021</span>
+                    </div>
+                    <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-700 dark:text-slate-300 list-disc list-inside leading-relaxed">
+                        <li>Developed open-source Qiskit compiler extensions for multi-qubit error mitigation.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tab Panel 2: Academic & Teaching -->
+            <div id="academicPanel" class="hidden space-y-6 max-w-4xl mx-auto">
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 sm:p-8 shadow-ivy border border-slate-200 dark:border-slate-700">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-slate-100 dark:border-slate-700">
+                        <div>
+                            <h3 class="font-serif text-xl font-bold text-navy dark:text-slate-100">Head Teaching Fellow (CS 281: Advanced Machine Learning)</h3>
+                            <p class="text-crimson dark:text-gold font-semibold text-sm">Harvard University</p>
+                        </div>
+                        <span class="text-xs font-bold px-3 py-1 bg-crimson/15 text-crimson dark:text-gold rounded-full self-start">2021 – 2023</span>
+                    </div>
+                    <p class="mt-3 text-xs sm:text-sm text-slate-700 dark:text-slate-300">
+                        Managed a team of 8 teaching assistants for 140+ graduate students. Designed curriculum homework sets on diffusion models and reinforcement learning math foundations.
+                    </p>
+                </div>
             </div>
 
         </div>
-
-        <br>
-
-        <p><strong>How to upload your PPTs:</strong></p>
-        <ol>
-            <li>Create a folder named <code>lectures</code> in the repository.</li>
-            <li>Upload your PDF or PPT files into that folder.</li>
-            <li>Keep the filenames the same as the links above, or update the link names accordingly.</li>
-        </ol>
     </section>
 
-    <!-- Publications -->
-    <section id="publications" class="section">
-        <h2>Publications</h2>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="py-20 bg-cream dark:bg-slate-900 border-b border-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-navy dark:text-gold uppercase tracking-widest bg-navy/10 dark:bg-gold/10 px-3 py-1 rounded-full border border-navy/20">
+                    Software & Benchmarks
+                </span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy dark:text-slate-100 mt-3">
+                    Featured Research Projects & Code
+                </h2>
+                <div class="w-16 h-1 bg-gold mx-auto mt-4 rounded-full"></div>
+            </div>
 
-        <div class="card">
-            <h3>IEEE Publication Title 1</h3>
-            <div class="meta">IEEE Conference/Journal, 2026</div>
+            <!-- Projects Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Project 1 -->
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-ivy border border-slate-200 dark:border-slate-700 hover:border-gold transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="p-2 rounded-lg bg-crimson/10 text-crimson dark:text-gold text-lg font-bold"><i class="fa-solid fa-brain"></i></span>
+                            <span class="text-xs font-semibold text-slate-500"><i class="fa-solid fa-star text-gold mr-1"></i>1.2k Stars</span>
+                        </div>
+                        <h3 class="font-serif text-lg font-bold text-navy dark:text-slate-100">SafeRL-Suite PyTorch</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
+                            A modular framework for benchmarked safety-constrained reinforcement learning in continuous control tasks.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between text-xs font-semibold">
+                        <span class="text-crimson dark:text-gold">Python • PyTorch</span>
+                        <a href="https://github.com" target="_blank" class="text-navy dark:text-slate-300 hover:underline">GitHub <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    </div>
+                </div>
 
-            <p>
-                Brief description of the publication, key contribution, and research impact.
+                <!-- Project 2 -->
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-ivy border border-slate-200 dark:border-slate-700 hover:border-gold transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="p-2 rounded-lg bg-navy/10 text-navy dark:text-gold text-lg font-bold"><i class="fa-solid fa-atom"></i></span>
+                            <span class="text-xs font-semibold text-slate-500"><i class="fa-solid fa-star text-gold mr-1"></i>840 Stars</span>
+                        </div>
+                        <h3 class="font-serif text-lg font-bold text-navy dark:text-slate-100">Q-Optimum Compiler</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
+                            Quantum circuit synthesis engine utilizing Monte Carlo tree search and neural heuristic evaluation.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between text-xs font-semibold">
+                        <span class="text-navy dark:text-gold">C++20 • Qiskit</span>
+                        <a href="https://github.com" target="_blank" class="text-navy dark:text-slate-300 hover:underline">GitHub <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 shadow-ivy border border-slate-200 dark:border-slate-700 hover:border-gold transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="p-2 rounded-lg bg-gold/20 text-gold-dark dark:text-gold text-lg font-bold"><i class="fa-solid fa-chart-line"></i></span>
+                            <span class="text-xs font-semibold text-slate-500"><i class="fa-solid fa-star text-gold mr-1"></i>490 Stars</span>
+                        </div>
+                        <h3 class="font-serif text-lg font-bold text-navy dark:text-slate-100">LLM-Alignment-Bench</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-300 mt-2 leading-relaxed">
+                            Standardized testbed evaluating catastrophic alignment failure modes under multi-agent game-theoretic prompt injections.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between text-xs font-semibold">
+                        <span class="text-crimson dark:text-gold">Python • HuggingFace</span>
+                        <a href="https://github.com" target="_blank" class="text-navy dark:text-slate-300 hover:underline">GitHub <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HONORS, AWARDS & GRANTS SECTION -->
+    <section id="honors" class="py-20 bg-paper dark:bg-slate-900/50 border-b border-gold/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-crimson dark:text-gold uppercase tracking-widest bg-crimson/10 dark:bg-gold/10 px-3 py-1 rounded-full border border-crimson/20">
+                    Recognition & Funding
+                </span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy dark:text-slate-100 mt-3">
+                    Honors, Fellowships & Grants
+                </h2>
+                <div class="w-16 h-1 bg-gold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Award 1 -->
+                <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-ivy border-t-4 border-gold flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs font-bold text-crimson dark:text-gold uppercase tracking-wider">2020 – 2024</div>
+                        <h3 class="font-serif text-lg font-bold text-navy dark:text-slate-100 mt-1">NSF Graduate Research Fellowship</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 mt-2">National Science Foundation ($150,000 research stipend for doctoral studies).</p>
+                    </div>
+                </div>
+
+                <!-- Award 2 -->
+                <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-ivy border-t-4 border-crimson flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs font-bold text-crimson dark:text-gold uppercase tracking-wider">2018</div>
+                        <h3 class="font-serif text-lg font-bold text-navy dark:text-slate-100 mt-1">Rhodes Scholarship</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 mt-2">The Rhodes Trust, Oxford University (Full academic fellowship).</p>
+                    </div>
+                </div>
+
+                <!-- Award 3 -->
+                <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-ivy border-t-4 border-navy dark:border-gold flex flex-col justify-between">
+                    <div>
+                        <div class="text-xs font-bold text-crimson dark:text-gold uppercase tracking-wider">2023</div>
+                        <h3 class="font-serif text-lg font-bold text-navy dark:text-slate-100 mt-1">NeurIPS Outstanding Paper Award</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 mt-2">Awarded for paper on provable safety constraints in neural network dynamics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & OFFICE HOURS SECTION -->
+    <section id="contact" class="py-20 bg-cream dark:bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold text-navy dark:text-gold uppercase tracking-widest bg-navy/10 dark:bg-gold/10 px-3 py-1 rounded-full border border-navy/20">
+                    Get In Touch
+                </span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy dark:text-slate-100 mt-3">
+                    Academic Inquiries & Office Hours
+                </h2>
+                <div class="w-16 h-1 bg-gold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <!-- Left: Contact Form -->
+                <div class="lg:col-span-7 bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-ivy border border-slate-200 dark:border-slate-700">
+                    <h3 class="font-serif text-2xl font-bold text-navy dark:text-slate-100 mb-6">Send a Message</h3>
+                    
+                    <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-600 dark:text-slate-300 mb-1">Your Name</label>
+                                <input type="text" required placeholder="Prof. Jane Doe" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-sm focus:outline-none focus:border-gold dark:text-slate-100">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-600 dark:text-slate-300 mb-1">Email Address</label>
+                                <input type="email" required placeholder="j.doe@university.edu" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-sm focus:outline-none focus:border-gold dark:text-slate-100">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-slate-600 dark:text-slate-300 mb-1">Subject</label>
+                            <input type="text" required placeholder="Research Collaboration / Speaker Invitation" class="w-full px-4 py-2.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-sm focus:outline-none focus:border-gold dark:text-slate-100">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-slate-600 dark:text-slate-300 mb-1">Message</label>
+                            <textarea rows="5" required placeholder="Dear Dr. Vance..." class="w-full px-4 py-2.5 rounded-lg border border-slate-300 dark:border-slate-600 bg-slate-50 dark:bg-slate-900 text-sm focus:outline-none focus:border-gold dark:text-slate-100"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-crimson hover:bg-crimson-dark text-white font-bold py-3 rounded-lg text-sm shadow-md transition duration-200 border border-gold/30">
+                            Send Academic Correspondence
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Right: Office Hours & Location Info -->
+                <div class="lg:col-span-5 space-y-6">
+                    <!-- Office Hours Card -->
+                    <div class="bg-navy text-white p-8 rounded-2xl shadow-ivy border-2 border-gold relative overflow-hidden">
+                        <div class="absolute -right-6 -bottom-6 text-white/5 text-9xl font-serif">
+                            <i class="fa-solid fa-building-columns"></i>
+                        </div>
+                        <h3 class="font-serif text-2xl font-bold text-gold">Office Location</h3>
+                        
+                        <div class="mt-6 space-y-4 text-sm">
+                            <div class="flex items-start gap-3">
+                                <i class="fa-solid fa-location-dot text-gold mt-1"></i>
+                                <div>
+                                    <p class="font-bold">Maxwell Dworkin Building, Room 341</p>
+                                    <p class="text-slate-300">Harvard John A. Paulson School of Engineering</p>
+                                    <p class="text-slate-300">33 Oxford Street, Cambridge, MA 02138</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-3 pt-2">
+                                <i class="fa-solid fa-clock text-gold mt-1"></i>
+                                <div>
+                                    <p class="font-bold">Student Advising Office Hours:</p>
+                                    <p class="text-slate-300">Tuesdays & Thursdays: 2:00 PM – 4:00 PM EST</p>
+                                    <p class="text-xs text-gold/80 italic mt-1">(By appointment via email for non-Harvard visitors)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Contact Badges -->
+                    <div class="bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-ivy border border-slate-200 dark:border-slate-700 space-y-3 text-xs sm:text-sm font-semibold">
+                        <div class="flex items-center justify-between p-3 rounded-lg bg-slate-50 dark:bg-slate-900">
+                            <span class="text-slate-600 dark:text-slate-400"><i class="fa-solid fa-envelope text-crimson mr-2"></i> Primary Email:</span>
+                            <span class="text-navy dark:text-gold font-bold">a.vance@harvard.edu</span>
+                        </div>
+                        <div class="flex items-center justify-between p-3 rounded-lg bg-slate-50 dark:bg-slate-900">
+                            <span class="text-slate-600 dark:text-slate-400"><i class="fa-solid fa-phone text-navy dark:text-gold mr-2"></i> Lab Phone:</span>
+                            <span class="text-navy dark:text-gold font-bold">+1 (617) 495-1000</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy dark:bg-slate-950 text-slate-300 py-12 border-t border-gold/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+            <div class="flex items-center justify-center gap-3">
+                <div class="w-8 h-8 rounded-full crest-border p-0.5">
+                    <div class="w-full h-full bg-navy rounded-full flex items-center justify-center text-gold font-serif font-bold text-xs">
+                        AV
+                    </div>
+                </div>
+                <span class="font-serif text-lg font-bold text-white">Dr. Alexander V. Vance</span>
+            </div>
+            
+            <p class="text-xs text-slate-400 max-w-md mx-auto">
+                Ivy League Academic & Professional Portfolio Template. Designed with Crimson & Oxford Navy aesthetics for scholars and researchers.
             </p>
 
-            <a class="pub-link" href="#">View Publication →</a>
-        </div>
-
-        <div class="card">
-            <h3>IEEE Publication Title 2</h3>
-            <div class="meta">IEEE Conference/Journal, 2025</div>
-
-            <p>
-                Brief description of the publication, methodology, and experimental results.
-            </p>
-
-            <a class="pub-link" href="#">View Publication →</a>
-        </div>
-
-        <div class="card">
-            <h3>Working Papers</h3>
-            <ul>
-                <li>Pilot Signal Design for OTFS Systems</li>
-                <li>Hybrid Neural Receivers for Next-Generation Waveforms</li>
-                <li>Synchronization Algorithms for High-Mobility Satellite Links</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Patents -->
-    <section id="patents" class="section">
-        <h2>Patents</h2>
-
-        <div class="card">
-            <h3>Patent Title 1</h3>
-            <div class="meta">Filed / Published | Patent Application No.</div>
-
-            <p>
-                Short description of the invention, technical novelty, and application domain.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Patent Title 2</h3>
-            <div class="meta">Filed / Published | Patent Application No.</div>
-
-            <p>
-                Short description of the invention, technical novelty, and application domain.
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>Innovation Areas</h3>
-            <ul>
-                <li>Wireless synchronization algorithms</li>
-                <li>Satellite waveform processing</li>
-                <li>RF impairment compensation</li>
-                <li>AI-assisted communication receivers</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Research Interests -->
-    <section class="section">
-        <h2>Research Interests</h2>
-
-        <ul>
-            <li>Orthogonal Time Frequency Space (OTFS)</li>
-            <li>Advanced satellite communication waveforms</li>
-            <li>Delay-Doppler signal processing</li>
-            <li>Integrated Sensing and Communication (ISAC)</li>
-            <li>AI/ML for communication receivers</li>
-            <li>6G physical layer technologies</li>
-            <li>Synchronization and channel estimation</li>
-            <li>SIGINT and emitter geolocation techniques</li>
-        </ul>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-
-        <div class="contact-grid">
-
-            <div class="contact-item">
-                <h4>Email</h4>
-                <p>your.email@example.com</p>
+            <div class="text-xs text-slate-500 pt-4 border-t border-slate-800">
+                &copy; <span id="currentYear"></span> Dr. Alexander V. Vance. All Rights Reserved.
             </div>
-
-            <div class="contact-item">
-                <h4>LinkedIn</h4>
-                <p>linkedin.com/in/palanivelge</p>
-            </div>
-
-            <div class="contact-item">
-                <h4>GitHub</h4>
-                <p>github.com/palanivelge</p>
-            </div>
-
-            <div class="contact-item">
-                <h4>Google Scholar</h4>
-                <p>Add your scholar profile link</p>
-            </div>
-
         </div>
-    </section>
+    </footer>
 
-</div>
+    <!-- BIBTEX MODAL DIALOG -->
+    <div id="bibtexModal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-navy/70 backdrop-blur-sm">
+        <div class="bg-white dark:bg-slate-900 rounded-2xl max-w-2xl w-full p-6 shadow-2xl border-2 border-gold relative">
+            <button onclick="closeBibtexModal()" class="absolute top-4 right-4 text-slate-400 hover:text-crimson text-xl font-bold">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h3 class="font-serif text-xl font-bold text-navy dark:text-slate-100 mb-4 flex items-center gap-2">
+                <i class="fa-solid fa-quote-left text-gold"></i> BibTeX Citation Snippet
+            </h3>
+            
+            <pre id="bibtexContent" class="bg-slate-900 text-gold-light p-4 rounded-xl text-xs font-mono overflow-x-auto border border-slate-700 leading-relaxed"></pre>
 
-<!-- Footer -->
-<footer>
-    <p>© 2026 Palanivel GE | Personal Academic & Professional Website</p>
-</footer>
-```
+            <div class="mt-6 flex justify-end gap-3">
+                <button onclick="closeBibtexModal()" class="px-4 py-2 rounded-lg text-xs font-bold text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+                    Close
+                </button>
+                <button onclick="copyBibtexText()" class="px-5 py-2 rounded-lg text-xs font-bold bg-crimson hover:bg-crimson-dark text-white shadow flex items-center gap-2">
+                    <i class="fa-solid fa-copy"></i> Copy Snippet
+                </button>
+            </div>
+        </div>
+    </div>
 
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div id="toastContainer" class="fixed bottom-5 right-5 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+    <script>
+        // Set Current Year in Footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Dark Mode Toggle Logic
+        function toggleDarkMode() {
+            const html = document.documentElement;
+            const isDark = html.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            updateThemeIcons(isDark);
+        }
+
+        function updateThemeIcons(isDark) {
+            const iconDesktop = document.getElementById('themeIcon');
+            const iconMobile = document.getElementById('themeIconMobile');
+            
+            const iconClass = isDark ? 'fa-sun' : 'fa-moon';
+            if (iconDesktop) iconDesktop.className = `fa-solid ${iconClass} text-lg`;
+            if (iconMobile) iconMobile.className = `fa-solid ${iconClass} text-lg`;
+        }
+
+        // Initialize Theme preference
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+            updateThemeIcons(true);
+        } else {
+            document.documentElement.classList.remove('dark');
+            updateThemeIcons(false);
+        }
+
+        // Mobile Navigation Toggle
+        function toggleMobileMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('hidden');
+        }
+
+        // Custom Toast Helper System
+        function showToast(message) {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            toast.className = 'pointer-events-auto bg-navy text-white text-xs font-semibold px-4 py-3 rounded-xl shadow-2xl border border-gold flex items-center gap-3 transition-all duration-300 transform translate-y-4 opacity-0';
+            toast.innerHTML = `<i class="fa-solid fa-circle-check text-gold text-base"></i> <span>${message}</span>`;
+            
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.classList.remove('translate-y-4', 'opacity-0');
+            }, 10);
+
+            setTimeout(() => {
+                toast.classList.add('opacity-0', 'translate-y-2');
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        // Experience Section Dual-Tab Switcher
+        function switchExperienceTab(tab) {
+            const industryPanel = document.getElementById('industryPanel');
+            const academicPanel = document.getElementById('academicPanel');
+            const tabIndustryBtn = document.getElementById('tabIndustryBtn');
+            const tabAcademicBtn = document.getElementById('tabAcademicBtn');
+
+            if (tab === 'industry') {
+                industryPanel.classList.remove('hidden');
+                academicPanel.classList.add('hidden');
+                tabIndustryBtn.className = 'px-6 py-2.5 rounded-lg text-xs sm:text-sm font-bold transition shadow-sm bg-navy text-white';
+                tabAcademicBtn.className = 'px-6 py-2.5 rounded-lg text-xs sm:text-sm font-bold transition text-slate-700 dark:text-slate-300 hover:text-navy';
+            } else {
+                academicPanel.classList.remove('hidden');
+                industryPanel.classList.add('hidden');
+                tabAcademicBtn.className = 'px-6 py-2.5 rounded-lg text-xs sm:text-sm font-bold transition shadow-sm bg-navy text-white';
+                tabIndustryBtn.className = 'px-6 py-2.5 rounded-lg text-xs sm:text-sm font-bold transition text-slate-700 dark:text-slate-300 hover:text-navy';
+            }
+        }
+
+        // Publication Filtering & Search Logic
+        let currentFilter = 'all';
+
+        function setPubFilter(category) {
+            currentFilter = category;
+            
+            // Update filter buttons appearance
+            const buttons = document.querySelectorAll('.pub-filter-btn');
+            buttons.forEach(btn => {
+                btn.className = 'pub-filter-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-200 hover:bg-gold/20 border border-transparent';
+            });
+            event.target.className = 'pub-filter-btn active-filter px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-crimson text-white border border-crimson';
+
+            filterPublications();
+        }
+
+        function filterPublications() {
+            const query = document.getElementById('pubSearchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.pub-card');
+
+            cards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                const title = card.getAttribute('data-title');
+                const authors = card.getAttribute('data-authors');
+
+                const matchesFilter = currentFilter === 'all' || category.includes(currentFilter);
+                const matchesQuery = title.includes(query) || authors.includes(query);
+
+                if (matchesFilter && matchesQuery) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+
+        // BibTeX Snippets Data & Modal Controller
+        const bibtexData = {
+            pub1: `@inproceedings{vance2024provable,
+  title={Provable Safety Guarantees in Multi-Agent Neural Reinforcement Alignment},
+  author={Vance, Alexander V. and Zhang, E. and Thorne, H. C. and Wellesley, M. R.},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2024}
+}`,
+            pub2: `@article{vance2023scalable,
+  title={Scalable Quantum Circuit Compilation via Deep Graph Reinforcement Heuristics},
+  author={Vance, Alexander V. and Finch, Alistair and Ramanujan, S. K.},
+  journal={Nature Communications},
+  volume={14},
+  pages={4821},
+  year={2023}
+}`,
+            pub3: `@article{montgomery2023trustworthy,
+  title={Trustworthy Human-in-the-Loop Feedback Dynamics for Foundation Reasoning Models},
+  author={Montgomery, C. L. and Vance, Alexander V. and Sterling, D. R.},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2023}
+}`
+        };
+
+        function openBibtexModal(key) {
+            const modal = document.getElementById('bibtexModal');
+            const content = document.getElementById('bibtexContent');
+            content.textContent = bibtexData[key] || 'BibTeX entry unavailable.';
+            modal.classList.remove('hidden');
+        }
+
+        function closeBibtexModal() {
+            document.getElementById('bibtexModal').classList.add('hidden');
+        }
+
+        function copyBibtexText() {
+            const text = document.getElementById('bibtexContent').textContent;
+            
+            // Clipboard Fallback compatible method
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            textarea.select();
+            
+            try {
+                document.execCommand('copy');
+                showToast('BibTeX citation copied to clipboard!');
+            } catch (err) {
+                showToast('Failed to copy automatically.');
+            } finally {
+                document.body.removeChild(textarea);
+                closeBibtexModal();
+            }
+        }
+
+        // Form Submit Handler
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            showToast('Thank you! Your academic correspondence has been sent.');
+            event.target.reset();
+        }
+    </script>
 </body>
 </html>
